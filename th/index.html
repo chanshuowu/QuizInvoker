@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="เปลี่ยนหนังสือเรียน โน้ต และข้อที่เคยตอบผิดให้เป็นคลังคำถามของคุณ ฝึกแบบออฟไลน์ และแชร์คำถามที่เลือกให้แอป AI ภายนอกที่รองรับได้">
+  <meta name="theme-color" content="#faf7ef">
+  <title>Quiz Invoker · สร้างคลังคำถาม ของคุณเอง</title>
+  <link rel="icon" href="../assets/icon.png" type="image/png">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="alternate" hreflang="x-default" href="../index.html">
+  <link rel="alternate" hreflang="en-US" href="../index.html">
+  <link rel="alternate" hreflang="zh-Hant" href="../zh-Hant/index.html">
+  <link rel="alternate" hreflang="zh-Hans" href="../zh-Hans/index.html">
+  <link rel="alternate" hreflang="de" href="../de/index.html">
+  <link rel="alternate" hreflang="de-DE" href="../de/index.html">
+  <link rel="alternate" hreflang="es" href="../es/index.html">
+  <link rel="alternate" hreflang="es-ES" href="../es/index.html">
+  <link rel="alternate" hreflang="es-MX" href="../es/index.html">
+  <link rel="alternate" hreflang="fr" href="../fr/index.html">
+  <link rel="alternate" hreflang="fr-FR" href="../fr/index.html">
+  <link rel="alternate" hreflang="fr-CA" href="../fr/index.html">
+  <link rel="alternate" hreflang="hi" href="../hi/index.html">
+  <link rel="alternate" hreflang="id" href="../id/index.html">
+  <link rel="alternate" hreflang="it" href="../it/index.html">
+  <link rel="alternate" hreflang="ja" href="../ja/index.html">
+  <link rel="alternate" hreflang="ko" href="../ko/index.html">
+  <link rel="alternate" hreflang="mr" href="../mr/index.html">
+  <link rel="alternate" hreflang="mr-IN" href="../mr/index.html">
+  <link rel="alternate" hreflang="pl" href="../pl/index.html">
+  <link rel="alternate" hreflang="pt-BR" href="../pt-BR/index.html">
+  <link rel="alternate" hreflang="pt-PT" href="../pt-PT/index.html">
+  <link rel="alternate" hreflang="ru" href="../ru/index.html">
+  <link rel="alternate" hreflang="ta" href="../ta/index.html">
+  <link rel="alternate" hreflang="ta-IN" href="../ta/index.html">
+  <link rel="alternate" hreflang="th" href="index.html">
+  <link rel="alternate" hreflang="tr" href="../tr/index.html">
+  <link rel="alternate" hreflang="uk" href="../uk/index.html">
+  <link rel="alternate" hreflang="vi" href="../vi/index.html">
+</head>
+<body class="landing">
+  <a class="skip-link" href="#main">ข้ามไปยังเนื้อหาหลัก</a>
+  <header class="masthead wrap">
+    <a class="brand" href="index.html"><img src="../assets/icon.png" width="44" height="44" alt=""><span>Quiz Invoker</span></a>
+    <nav aria-label="เมนูเว็บไซต์"><a href="support.html">การสนับสนุน</a><a href="privacy.html">นโยบายความเป็นส่วนตัว</a><details class="language-picker"><summary>เลือกภาษา</summary><ul class="language-options"><li><a href="../index.html" lang="en" hreflang="en">English</a></li><li><a href="../zh-Hant/index.html" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li><li><a href="../zh-Hans/index.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li><li><a href="../de/index.html" lang="de" hreflang="de">Deutsch</a></li><li><a href="../es/index.html" lang="es" hreflang="es">Español</a></li><li><a href="../fr/index.html" lang="fr" hreflang="fr">Français</a></li><li><a href="../hi/index.html" lang="hi" hreflang="hi">हिन्दी</a></li><li><a href="../id/index.html" lang="id" hreflang="id">Bahasa Indonesia</a></li><li><a href="../it/index.html" lang="it" hreflang="it">Italiano</a></li><li><a href="../ja/index.html" lang="ja" hreflang="ja">日本語</a></li><li><a href="../ko/index.html" lang="ko" hreflang="ko">한국어</a></li><li><a href="../mr/index.html" lang="mr" hreflang="mr">मराठी</a></li><li><a href="../pl/index.html" lang="pl" hreflang="pl">Polski</a></li><li><a href="../pt-BR/index.html" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a></li><li><a href="../pt-PT/index.html" lang="pt-PT" hreflang="pt-PT">Português (Portugal)</a></li><li><a href="../ru/index.html" lang="ru" hreflang="ru">Русский</a></li><li><a href="../ta/index.html" lang="ta" hreflang="ta">தமிழ்</a></li><li><a href="index.html" lang="th" hreflang="th" aria-current="page">ไทย</a></li><li><a href="../tr/index.html" lang="tr" hreflang="tr">Türkçe</a></li><li><a href="../uk/index.html" lang="uk" hreflang="uk">Українська</a></li><li><a href="../vi/index.html" lang="vi" hreflang="vi">Tiếng Việt</a></li></ul></details></nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="overline">แอปสำหรับเรียนบน iPhone</p>
+        <h1 id="hero-title">สร้างคลังคำถาม<br>ของคุณเอง</h1>
+        <p class="hero-description">เริ่มจากหนังสือเรียนหนึ่งหน้า โน้ตสั้น ๆ หรือข้อที่เคยตอบผิด นำมาใส่ใน Quiz Invoker ตรวจดูว่าต้องการเก็บข้อไหน แล้วใช้คำถามเหล่านั้นในการฝึกครั้งถัดไป</p>
+        <a class="action" href="#workflow">ดูวิธีใช้งาน <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-visual"><div class="hero-screens"><figure class="screen"><img src="../assets/th/add.webp" width="660" height="1434" alt="หน้าเพิ่มคำถามที่มีตัวเลือกสำหรับเพิ่มสื่อการเรียน" loading="eager" decoding="async"><figcaption>เพิ่มสื่อการเรียน</figcaption></figure><figure class="screen"><img src="../assets/th/library.webp" width="660" height="1434" alt="คลังคำถามตัวอย่าง 22 ข้อที่จัดกลุ่มตามวิชา" loading="eager" decoding="async"><figcaption>สร้างคลังคำถามของคุณ</figcaption></figure></div></div>
+    </section>
+    <section class="workflow wrap" id="workflow" aria-labelledby="workflow-title">
+      <div class="section-head"><h2 id="workflow-title">จากหนังสือหนึ่งหน้าสู่การฝึกทุกวัน</h2><p>เก็บคำถามที่สำคัญกับคุณไว้ แล้วกลับมาลองทำอีกครั้งเมื่อเวลาผ่านไป</p></div>
+      <article class="story story-intro">
+        <div class="story-copy">
+          <span class="ordinal" aria-hidden="true">01</span>
+          <h3>ใช้สื่อการเรียนของคุณสร้างคำถาม</h3>
+          <p>เพิ่มรูปภาพ ไฟล์ PDF เอกสาร หรือโน้ต Quiz Invoker จะเตรียมสื่อการเรียนและคำสั่งสำหรับสร้างคำถามให้คุณแชร์กับแอป AI ภายนอกที่รองรับและคุณเลือกเอง ตรวจสอบผลลัพธ์ที่ได้รับ นำเข้า แล้วเก็บเฉพาะข้อที่อยากฝึกไว้ในคลัง</p>
+          <ul class="story-tags"><li>เลือกสื่อการเรียน</li><li>ตรวจผลลัพธ์</li><li>เก็บคำถาม</li></ul>
+        </div>
+        
+      </article>
+      <article class="story story-share">
+        <div class="story-copy">
+          <span class="ordinal" aria-hidden="true">02</span>
+          <h3>ติดตรงไหน ถาม AI ที่คุณเลือก</h3>
+          <p>แชร์คำถามที่เลือกกับแอป AI ภายนอกที่ต้องการ ให้แอปนั้นช่วยอธิบายแนวคิด ให้คำใบ้ทีละขั้น หรือทดสอบความเข้าใจของคุณ คุณเป็นคนเลือกว่าจะส่งไฟล์หรือบันทึกใด</p>
+          <ul class="story-tags"><li>อธิบายแนวคิด</li><li>เรียนรู้ด้วยคำใบ้</li><li>ทดสอบตัวเอง</li></ul>
+        </div>
+        <div class="stage stage-share"><figure class="screen"><img src="../assets/th/share.webp" width="660" height="1434" alt="ตัวอย่างการแชร์จากหน้าเรียนกับ AI ที่เลือกคำถามไว้สามข้อ" loading="lazy" decoding="async"><figcaption>แชร์คำถามที่เลือก</figcaption></figure></div>
+      </article>
+      <article class="story story-study">
+        <div class="story-copy">
+          <span class="ordinal" aria-hidden="true">03</span>
+          <h3>ลองตอบก่อน แล้วค่อยดูคำตอบ</h3>
+          <p>ลองทำโจทย์เองก่อน จากนั้นเปิดดูคำตอบและประเมินว่าจำได้แค่ไหน จดว่าติดตรงไหนไว้ เพื่อกลับมาอ่านเมื่อเจอข้อเดิมในครั้งถัดไป</p>
+          <ul class="story-tags"><li>คำถาม</li><li>คำตอบ</li><li>บันทึกข้อผิดพลาด</li></ul>
+        </div>
+        <div class="stage stage-study"><figure class="screen"><img src="../assets/th/m3-question.webp" width="660" height="1434" alt="คำถามฝึกทำข้อที่สามจากห้าข้อ ให้แยกตัวประกอบของพหุนาม" loading="lazy" decoding="async"><figcaption>ลองทำเองก่อน</figcaption></figure><figure class="screen"><img src="../assets/th/m3-answer.webp" width="660" height="1434" alt="หน้าคำตอบของโจทย์แยกตัวประกอบพหุนาม" loading="lazy" decoding="async"><figcaption>เปิดดูคำตอบ</figcaption></figure></div>
+      </article>
+      <article class="story story-progress">
+        <div class="story-copy">
+          <span class="ordinal" aria-hidden="true">04</span>
+          <h3>ย้อนดูการฝึกในช่วงเจ็ดวัน</h3>
+          <p>หน้าความคืบหน้าแสดงการฝึกในช่วงเจ็ดวันที่ผ่านมาและเป้าหมายรายวัน บันทึกจะอยู่กับคำถาม คุณจึงกลับมาดูได้ทั้งคำตอบและวิธีคิดในตอนนั้น</p>
+          
+        </div>
+        <div class="stage stage-progress"><figure class="screen"><img src="../assets/th/notes.webp" width="660" height="1434" alt="หน้าที่แสดงเหตุผลที่ตอบผิดและบันทึกส่วนตัว" loading="lazy" decoding="async"><figcaption>จดว่าติดตรงไหน</figcaption></figure><figure class="screen"><img src="../assets/th/progress.webp" width="660" height="1434" alt="หน้าความคืบหน้าที่แสดงการฝึกเจ็ดวันและเส้นเป้าหมายรายวัน" loading="lazy" decoding="async"><figcaption>ดูความคืบหน้าเจ็ดวัน</figcaption></figure></div>
+      </article>
+    </section>
+    <section class="privacy-callout wrap" aria-labelledby="privacy-title">
+      <div><h2 id="privacy-title">คลังคำถามอยู่บนอุปกรณ์ของคุณ</h2><p>จัดระเบียบคำถามและฝึกแบบออฟไลน์ได้โดยไม่ต้องมีบัญชี Quiz Invoker แอปเตรียมไฟล์และคำสั่งบนอุปกรณ์ของคุณ ส่วนเนื้อหาที่ส่งออกไปจะได้รับการประมวลผลในแอป AI ภายนอกที่คุณเลือก</p></div>
+      <a class="action action-outline" href="privacy.html">นโยบายความเป็นส่วนตัว <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+  <footer class="site-footer wrap">
+    <div><strong>Quiz Invoker</strong><p>ดูวิธีใช้ Quiz Invoker ขอความช่วยเหลือ หรืออ่านข้อมูลเกี่ยวกับการจัดการข้อมูลการเรียน</p></div>
+    <div class="footer-links">
+      <a href="support.html">การสนับสนุน</a>
+      <a href="privacy.html">นโยบายความเป็นส่วนตัว</a>
+    </div>
+  </footer>
+</body>
+</html>
